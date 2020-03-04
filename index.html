@@ -48,11 +48,7 @@ body {margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;}
 
-.slideshow-container {
-  max-width: 2000px;
-  position: relative;
-  margin: auto;
-}
+.slideshow-container {max-width: 2000px; position: relative; margin: auto;}
 
 .prev, .next {
   cursor: pointer;
@@ -69,14 +65,8 @@ img {vertical-align: middle;}
   user-select: none;
 }
 
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
+.next {right: 0; border-radius: 3px 0 0 3px;}
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);}
 
 .fade {
   -webkit-animation-name: fade;
@@ -85,36 +75,41 @@ img {vertical-align: middle;}
   animation-duration: 2s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .5} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .5} 
-  to {opacity: 1}
-}
+@-webkit-keyframes fade {from {opacity: .5} to {opacity: 1}}
+@keyframes fade {from {opacity: .5} to {opacity: 1}}
 	
 /* Programme Headers */
 
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
+.container {position: relative; text-align: center; color: white;}
 
 .header {
-  position: absolute;
-  top: 20%;
-  left: 75%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	top: 30%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-family: Rambla;
+	font-size: 40px;
+	color:white;
 }	
 	
 .description2 {
-  position: absolute;
-  top: 60%;
-  left: 75%;
-  transform: translate(-50%, -50%);
+	position: absolute;
+	top: 60%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-family: Oswald; 
+	font-size: 20px; 
+	color:white;
+}	
+	
+.description3 {
+	position: absolute;
+	top: 75%;
+	left: 75%;
+	transform: translate(-50%, -50%);
+	font-family: Oswald; 
+	font-size: 20px; 
+	color:white;
 }	
 	
 </style>
@@ -201,9 +196,9 @@ slides[slideIndex-1].style.display = "block";}
 	
 <div class="container">
   	<img src="header1.jpg" alt="Boxing" style="width:100%">
-  	<div class="header" style="font-family: Oswald; font-size: 40px; color:white;">BOXING</div>
-	<div class="description2" style="font-family: Oswald; font-size: 20px; color:white;">Utilizing punches, footwork, and head movement, boxing is the sweet science of hitting without getting hit. Through proper body mechanics, boxing is as efficient as it is smooth in generating powerful punches and beautiful evasive defense.</p>
-	</div>
+  	<div class="header">BOXING</div>
+	<div class="description2">Utilizing punches, footwork, and head movement, boxing is the sweet science of hitting without getting hit. Through proper body mechanics, boxing is as efficient as it is smooth in generating powerful punches and beautiful evasive defense.</div>
+	<div class="description3">Our boxing classes are conducted in a safe and encouraging atmosphere. In our beginners boxing class, we focus on proper technique and constant improvement. For advanced students, we will see to it that adequate instruction is given in our intermediate boxing class so that we can take your techniques to the next level.</div>
 </div>
 
 </body>
