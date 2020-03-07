@@ -28,7 +28,7 @@ ul {
 
 li {float: right;}
 
-li a {
+li a.nav {
 	display: block;
 	font-family: Oswald;
 	color: white;
@@ -37,7 +37,7 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover:not(.active) {color: #ffda03;}
+li a.nav:hover:not(.active) {color: #ffda03;}
 	
 * {box-sizing: border-box}
 body {margin:0 0 0 0}
@@ -49,6 +49,14 @@ a.shop:visited {color: white;}
 a.shop:hover {color: #ffda03;}
 a.shop:active {color: white;}
 	
+/* Images */
+	
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+	
 </style>
 </head>
     
@@ -58,12 +66,12 @@ a.shop:active {color: white;}
 
 <nav>
 <ul>
-	<li><a href="contactus.html">CONTACT US</a></li>
-	<li><a href="gallery.html">GALLERY</a></li>
-	<li><a href="rates.html">RATES</a></li>
-	<li><a href="schedule.html">SCHEDULE</a></li>
-	<li><a href="facilities.html">FACILITIES</a></li>
-	<li><a href="index.html">HOME</a></li>
+	<li><a.nav href="contactus.html">CONTACT US</a></li>
+	<li><a.nav href="gallery.html">GALLERY</a></li>
+	<li><a.nav href="rates.html">RATES</a></li>
+	<li><a.nav href="schedule.html">SCHEDULE</a></li>
+	<li><a.nav href="facilities.html">FACILITIES</a></li>
+	<li><a.nav href="index.html">HOME</a></li>
 </ul>
 </nav>
 
