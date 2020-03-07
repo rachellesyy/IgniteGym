@@ -28,7 +28,7 @@ ul {
 
 li {float: right;}
 
-li a {
+li a.nav {
 	display: block;
 	font-family: Oswald;
 	color: white;
@@ -37,7 +37,7 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover:not(.active) {color: #ffda03;}
+li a.nav:hover:not(.active) {color: #ffda03;}
 	
 * {box-sizing: border-box}
 body {margin:0 0 0 0}
@@ -64,10 +64,10 @@ tr:nth-child(even) {background-color: #ffda03;}
 	
 /* Hyperlinks */
 
-a.link :link {color: #ffda03;}
-a.link :visited {color: white;}
-a.link :hover {color: #ffda03;}
-a.link :active {color: white;}
+a.email:link {color: #ffda03;}
+a.email:visited {color: white;}
+a.email:hover {color: #ffda03;}
+a.email:active {color: white;}
 	
 </style>
 </head>
@@ -78,12 +78,12 @@ a.link :active {color: white;}
 
 <nav>
 <ul>
-	<li><a href="contactus.html">CONTACT US</a></li>
-	<li><a href="gallery.html">GALLERY</a></li>
-	<li><a href="rates.html">RATES</a></li>
-	<li><a href="schedule.html">SCHEDULE</a></li>
-	<li><a href="facilities.html">FACILITIES</a></li>
-	<li><a href="index.html">HOME</a></li>
+	<li><a class="nav" href="contactus.html">CONTACT US</a></li>
+	<li><a class="nav" href="gallery.html">GALLERY</a></li>
+	<li><a class="nav" href="rates.html">RATES</a></li>
+	<li><a class="nav" href="schedule.html">SCHEDULE</a></li>
+	<li><a class="nav" href="facilities.html">FACILITIES</a></li>
+	<li><a class="nav" href="index.html">HOME</a></li>
 </ul>
 </nav>
     
@@ -141,7 +141,7 @@ a.link :active {color: white;}
 <br>
 	
 	<h1 class="subtitle3"> Corporate Rates (<50pax)</h1>
-	<p class="corporate">For corporate training rates for groups with more than 50pax, please email our Sales Manager, Rachelle Sim, at <a class="link" href="mailto:simrachelle@gmail.com" target="_top">simrachelle@gmail.com</a>.
+	<p class="corporate">For corporate training rates for groups with more than 50pax, please email our Sales Manager, Rachelle Sim, at <a class="email" href="mailto:simrachelle@gmail.com" target="_top">simrachelle@gmail.com</a>.
 </p> 
 		
 <br>
